@@ -1,0 +1,28 @@
+--cpu Cortex-M4.fp
+"2006_v5\startup_stm32f427xx.o"
+"2006_v5\main.o"
+"2006_v5\gpio.o"
+"2006_v5\can.o"
+"2006_v5\stm32f4xx_it.o"
+"2006_v5\stm32f4xx_hal_msp.o"
+"2006_v5\stm32f4xx_hal_can.o"
+"2006_v5\stm32f4xx_hal_rcc.o"
+"2006_v5\stm32f4xx_hal_rcc_ex.o"
+"2006_v5\stm32f4xx_hal_flash.o"
+"2006_v5\stm32f4xx_hal_flash_ex.o"
+"2006_v5\stm32f4xx_hal_flash_ramfunc.o"
+"2006_v5\stm32f4xx_hal_gpio.o"
+"2006_v5\stm32f4xx_hal_dma_ex.o"
+"2006_v5\stm32f4xx_hal_dma.o"
+"2006_v5\stm32f4xx_hal_pwr.o"
+"2006_v5\stm32f4xx_hal_pwr_ex.o"
+"2006_v5\stm32f4xx_hal_cortex.o"
+"2006_v5\stm32f4xx_hal.o"
+"2006_v5\stm32f4xx_hal_exti.o"
+"2006_v5\stm32f4xx_hal_tim.o"
+"2006_v5\stm32f4xx_hal_tim_ex.o"
+"2006_v5\system_stm32f4xx.o"
+--strict --scatter "2006_v5\2006_v5.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "2006_v5.map" -o 2006_v5\2006_v5.axf
